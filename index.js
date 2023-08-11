@@ -31,5 +31,5 @@ app.use('/api/v1/openai', openaiRoutes);
 
 const PORT= process.env.PORT || 8000
 app.listen(PORT, ()=>{
-    console.log(`Server is running in ${process.env.MODE} mode on port ${PORT}.`.bgWhite.black);
+    console.log(`Server is running on port ${PORT}.`.bgWhite.black);
 })
